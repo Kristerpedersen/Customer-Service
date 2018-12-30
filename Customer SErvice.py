@@ -81,18 +81,22 @@ def live_rep(purpose):
 
 
 def did_that_help():
-    didithelp = input("Did that help? \n [1] Yes \n [2] No")
-    if didithelp == "1":
+    response = input("Did that help? \n [1] Yes \n [2] No")
+    if response == "1":
         print("Thank you!")
-    if didithelp == "2":
-        help = input("Would you like to talk to a live representative or schedule a home visit? \n [1] Live rep \n [2] Home visit")
-    elif help == "1":
-            live_rep("support")
-    elif help == "2":
-            home_visit("support")
-    else:
-        print("Sorry, we didn't understand your selection.")
-        did_that_help()
+    elif response == "2":
+        print("We're sorry. Would you like to talk to a live representative or schedule a home visit to address your problem? \n [1] Live Representative \n [2] Home Visit")
+        response_two = input("Please enter the number corresponding to your choice: ")
+        if response_two == "1":
+          live_rep("support")
+        elif response_two == "2":
+          home_visit("support")
+        else:
+            print("Sorry, we didn't understand your selection.")
+            did_that_help()
+
+
+
 
         
 
