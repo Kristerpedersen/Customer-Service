@@ -4,3 +4,7 @@ awdawdadwadadsadw
 
 
 Jeg liker test
+
+
+
+Hei jeg heter krister
