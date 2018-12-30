@@ -1,10 +1,1 @@
-# test
-test
-awdawdadwadadsadw
-
-
-Jeg liker test
-
-
-
-Hei jeg heter krister
+This is a simple text adventure customer service program
